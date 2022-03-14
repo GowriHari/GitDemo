@@ -51,7 +51,7 @@ public class Test {
 		WebElement firstName = driver.findElement(By.id("first_name"));
 		firstName.sendKeys("Gowri");
 		WebElement lastName = driver.findElement(By.id("last_name"));
-		lastName.sendKeys("Shankari");
+		lastName.sendKeys("Hari");
 		WebElement address = driver.findElement(By.id("address"));
 		address.sendKeys("Velachery");
 		WebElement ccNum = driver.findElement(By.id("cc_num"));
@@ -71,6 +71,8 @@ public class Test {
 		
 		WebElement orderNo = driver.findElement(By.id("order_no"));
 		System.out.println(orderNo.getAttribute("value"));
+		
+		System.out.println("*************************");
 		
 		WebElement search = driver.findElement(By.id("search_hotel"));
 		search.click();
