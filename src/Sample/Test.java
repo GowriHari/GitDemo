@@ -22,6 +22,8 @@ public class Test {
 		
 		driver.get("https://adactinhotelapp.com/");
 		
+		System.out.println("Line added using GIT");
+		
 		WebElement userName = driver.findElement(By.id("username"));
 		userName.sendKeys("sakthiraj");
 		WebElement passWord = driver.findElement(By.id("password"));
